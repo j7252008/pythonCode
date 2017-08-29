@@ -8,9 +8,9 @@ import requests
 import re
 
 
-date = "2017-08-23"
-from_station = stations.getCode("成都") 
-to_station = stations.getCode("上海")
+date = "2017-09-29"
+from_station = stations.getCode("北京") 
+to_station = stations.getCode("西安")
 
 url = "https://kyfw.12306.cn/otn/leftTicket/query?leftTicketDTO.train_date={}\
 &leftTicketDTO.from_station={}&leftTicketDTO.to_station={}&purpose_codes=ADULT".format(date, from_station, to_station)
