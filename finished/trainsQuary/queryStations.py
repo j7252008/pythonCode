@@ -43,11 +43,10 @@ for rawTrain in rawTrains:
     # no_seat = data_list[26] or '--'
 
 
-
-
 # stationUrl = "https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.9025"
 
 # rSation = requests.get(stationUrl, verify = False)
 
 # rawStations = re.findall(u'([\u4300-\u9fa5]+)\|([A-Z]+)', rSation.text) 
 # dictStations = dict(rawStations) 
+
