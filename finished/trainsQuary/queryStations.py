@@ -49,3 +49,4 @@ for rawTrain in rawTrains:
 
 # rawStations = re.findall(u'([\u4300-\u9fa5]+)\|([A-Z]+)', rSation.text) 
 # dictStations = dict(rawStations) 
+
