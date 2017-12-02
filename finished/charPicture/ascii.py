@@ -26,7 +26,7 @@ def get_char(r,g,b,alpha = 256):
     if alpha == 0:
         return ' '
     length = len(ascii_char)
-    gray = int((2126 * r + 7152 * g + 0722 * b)/10000)
+    gray = int((2126 * r + 7152 * g + 722 * b)/10000)
 
     unit = (256.0 + 1)/length
     return ascii_char[int(gray/unit)]
@@ -43,7 +43,7 @@ if __name__ == '__main__':
             txt += get_char(*im.getpixel((j,i)))
         txt += '\n'
 
-    print txt
+    print(txt)
     
     #字符画输出到文件
     if OUTPUT:
